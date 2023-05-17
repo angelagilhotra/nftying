@@ -1,4 +1,6 @@
 ## Component - `gate.tsx`
+### Demo
+https://www.loom.com/share/47aea05ec7e842c49f510225b45c804f
 ### Usage
 ```
 <Gate contractAddresses={[]} walletAddress={""} strategy="">

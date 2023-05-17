@@ -1,9 +1,3 @@
-## Observations
-1. Initialize a git repository option on onboarding
-2. Right out of the box the frontend and the backend are basically two separate applications
-3. typescript would be helpful, just in my exp i have found the stack nextjs+ts to be 🔥
-4. really neat
-
 ## Questions
 
 ### Why you chose this component
