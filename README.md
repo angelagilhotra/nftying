@@ -36,3 +36,24 @@ code: [useLockedState.js](/hooks/useLockedState.js)
   - `pages/api/getLockedState.js` code: [getLockedState](/pages/api/getLockedState.js)
   - `components/gate.jsx` code: [gate.jsx](/components/gate.jsx)
   - `styles/Gate.module.css` code: [Gate.module.css](/styles/Gate.module.css)
+
+3. **Step 3**: Use the component in `index.jsx`
+    ```jsx
+    import Gate from "../components/gate";
+    ```
+    ```jsx
+    <Gate
+      contractAddresses={[
+        // dai
+        "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        // random
+        "0x036a4d41d5c809B18c74c01E162B9b18DEC6B62b"
+      ]}
+      walletAddress={"0x59189745862F05867A50724e57F91cA0bE5eFA59"}
+      strategy="any" // any / all
+    >
+      <div>
+        Unlockable content here
+      </div>
+    </Gate>
+    ```

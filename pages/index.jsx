@@ -1,5 +1,4 @@
 import styles from "../styles/Home.module.css";
-import InstructionsComponent from "../components/InstructionsComponent";
 import Gate from "../components/gate";
 
 export default function Home() {
@@ -16,7 +15,9 @@ export default function Home() {
           walletAddress={"0x59189745862F05867A50724e57F91cA0bE5eFA59"}
           strategy="any" // any / all
         >
-          <InstructionsComponent></InstructionsComponent>
+          <div>
+            Unlockable content here
+          </div>
         </Gate>
       </main>
     </div>
