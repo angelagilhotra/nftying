@@ -16,11 +16,17 @@
 - install `npx create-web3-dapp@latest`, with these settings: https://i.imgur.com/K4JS3RY.png
 
 ### Steps
-- Create files:
+1. **Step 1**:  Create files:
     - `hooks/useLockedState.js`
     - `pages/api/getLockedState.js`
     - `components/gate.jsx`
     - `styles/Gate.module.css`
-- Add the following content in the newly created files:
-- `hooks/useLockedState.js`
+    ```bash
+    $ touch hooks/useLockedState.js pages/api/getLockedState.js components/gate.jsx styles/Gate.module.css
+    ```
+2. **Step 2**: Add the following content in the newly created files:
+  - `hooks/useLockedState.js`
 code: [useLockedState.js](/hooks/useLockedState.js)
+  - `pages/api/getLockedState.js` code: [getLockedState](/pages/api/getLockedState.js)
+  - `components/gate.jsx` code: [gate.jsx](/components/gate.jsx)
+  - `styles/Gate.module.css` code: [Gate.module.css](/styles/Gate.module.css)
