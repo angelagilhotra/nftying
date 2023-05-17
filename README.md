@@ -12,8 +12,14 @@
 - **Note**: developer needs to make sure gating happens on the backend as well, any info in any child components needs to be fetched only from the backend
     - eg., if `Gate` component with x rules (for n contract addresses) makes a backend call and determines the gate to remain locked - the component will display a locked state, but if the children component are making any backend data calls the backend network calls would still happen UNLESS child components also refer to the same `isLocked` api that `Gate` component is using to determine to fetch the actual data or not.
 
+---
+
+👉 Either clone this repository and get started or you can follow the steps below to setup Gate component in existing web3-dapp
+
+---
+
 ### Pre-Requisite
-- install `npx create-web3-dapp@latest`, with these settings: https://i.imgur.com/K4JS3RY.png
+1. install `npx create-web3-dapp@latest`, with these settings: https://i.imgur.com/K4JS3RY.png
 
 ### Steps
 1. **Step 1**:  Create files:
