@@ -17,7 +17,7 @@ const getLockedState = async ({ walletAddress, contractAddresses, strategy, chai
 const useLockedState = ({
   walletAddress, contractAddresses, chain, strategy
   }) => {
-  const [isLocked, setIsLocked] = useState(false);
+  const [isLocked, setIsLocked] = useState(true);
   const fetchForLockedState = async () => {
     const lockedState = await getLockedState({ walletAddress, contractAddresses, chain, strategy });
     setIsLocked(lockedState.isLocked);
