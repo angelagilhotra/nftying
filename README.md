@@ -22,7 +22,5 @@
     - `components/gate.jsx`
     - `styles/Gate.module.css`
 - Add the following content in the newly created files:
-<details>
-<summary>`hooks/useLockedState.js`</summary>
+- `hooks/useLockedState.js`
 code: [useLockedState.js](/hooks/useLockedState.js)
-</details>
