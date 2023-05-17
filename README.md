@@ -27,6 +27,8 @@
     - `pages/api/getLockedState.js`
     - `components/gate.jsx`
     - `styles/Gate.module.css`
+
+    or execute this in your terminal:
     ```bash
     mkdir hooks && touch hooks/useLockedState.js pages/api/getLockedState.js components/gate.jsx styles/Gate.module.css
     ```
