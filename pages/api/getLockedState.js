@@ -1,11 +1,11 @@
-// @todo
-// Importing required libraries from alchemy-sdk
 import { Network, Alchemy, BigNumber } from "alchemy-sdk";
 
 const parseContractAddresses = (contractAddresses) => {
   // @todo
   // check for valid address, written, check for the kind of contract
   // return array of strings - strings are contract/token addresses
+  // could use isAddress here from ethers util
+  // or a regex function
   return contractAddresses.map((address) => address);
 }
 

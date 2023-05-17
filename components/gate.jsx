@@ -28,7 +28,6 @@ const Gate = ({
       {children}
     </div>
   )
-
 }
 
 export default Gate;
