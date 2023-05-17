@@ -10,6 +10,7 @@ const parseContractAddresses = (contractAddresses) => {
 
 export default function handler (req, res) {
   let isLocked = true;
+
   const { address, contractAddresses, chain, strategy } = JSON.parse(req.body);
 
   // check is the user has/doesn't have the reqiured
@@ -29,7 +30,7 @@ export default function handler (req, res) {
     case "any": {
       // check for token ownership of any token in the array
     }
-    default: { isLocked = true }
+    default: { /** do nothing */ }
   }
 
   res.status(200).json({ isLocked });
