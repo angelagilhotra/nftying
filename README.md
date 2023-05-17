@@ -28,7 +28,7 @@
     - `components/gate.jsx`
     - `styles/Gate.module.css`
     ```bash
-    $ touch hooks/useLockedState.js pages/api/getLockedState.js components/gate.jsx styles/Gate.module.css
+    mkdir hooks && touch hooks/useLockedState.js pages/api/getLockedState.js components/gate.jsx styles/Gate.module.css
     ```
 2. **Step 2**: Add the following content in the newly created files:
   - `hooks/useLockedState.js`
